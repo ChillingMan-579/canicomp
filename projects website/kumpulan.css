@@ -1,0 +1,75 @@
+@font-face {
+  font-family: heycomic;
+  src: url("Hey\ Comic.ttf");
+}
+
+html, body{
+  height: 100vh;
+  width: 99vw;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: heycomic, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title{
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #5E60CE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+.project{
+  padding-left: 50px;
+  padding-top: 25px;
+  min-height: 80%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  padding-top: 25px;
+  min-height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.title-project{
+  margin-left: 15px;
+  font-size: 4rem;
+}
+
+.desc-project{
+  margin-left: 15px;
+  width: 50%;
+  margin-top: 15px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 25px 0;
+  background-color: #212529;
+}
+
+.by{
+  font-size: 18px;
+  color: #DEE2E6;
+}

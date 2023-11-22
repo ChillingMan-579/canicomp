@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Clock</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js" defer></script>
+  <div class="clock">
+    <span id="hours">00</span>
+    <span>:</span>
+    <span id="minutes">00</span>
+    <span>:</span>
+    <span id="seconds">00</span>
+  </div>
+  <div class="Date">
+    <span id="day">Day</span>
+    <span>, </span>
+    <span id="month">Month </span>
+    <span id="year">Year</span>
+  </div>
+  <div class="option">
+    <div class="opt stop" onclick="redirectPage('stopwatch.html')"><p>Stopwatch</p></div>
+    <div class="opt timer" onclick="redirectPage('alarm.html')"><p>Alarm</p></div>
+  </div>
+</body>
+
+</html>

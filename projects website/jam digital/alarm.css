@@ -1,0 +1,108 @@
+@font-face {
+  font-family: cheeseBurger;
+  src: url(Cheese\ Burger.otf);
+}
+
+html, body{
+  width: 100vw;
+  height: 100vh;
+}
+
+body{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(109,26,226,1) 0%, rgba(25,125,204,1) 69%, rgba(0,212,255,1) 98%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: cheeseBurger, Arial;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 440px;
+}
+
+.wrapper h1{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.wrapper .content{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrapper .content.disable{
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.content .column{
+  border-radius: 10px;
+  width: calc(100%/3 - 5px);
+  border: 1px solid #999;
+  padding: 0 10px;
+}
+
+.column select{
+  outline: none;
+  border: none;
+  height: 53px;
+  background: transparent;
+  width: 100%;
+  font-size: 18px;
+}
+
+.wrapper button{
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 17px 0;
+  border-radius: 5px;
+  background: #4d9aff;
+}
+
+.option{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.opt{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #576aff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.2s;
+  margin: 20px;
+}
+
+.opt:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+footer{
+  background-color: #3c40c6;
+  padding: 3em 0 3em 0;
+  box-sizing: border-box;
+}
